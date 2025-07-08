@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
+from tensorflow import keras 
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix
 import seaborn as sns # For a nicer confusion matrix plot
 
