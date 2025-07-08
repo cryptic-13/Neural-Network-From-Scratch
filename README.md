@@ -14,7 +14,9 @@ It makes predictions based on pixel brightness and activates neurons in each lay
 The final layer consists as many neurons as there are total number of possible outputs, for recognizing a digit, there are 10 possible outcomes (0-9) and thus the final layer has 10 neurons. The one with the maximum acitvation out of these 10 neurons becomes the predicted number. 
 
 
-While training the neural network, if the predicted number does not match the actual label, back propagation adjusts the weights and biases such that the correct prediction is made. 
+While training the neural network, if the predicted number does not match the actual label, back propagation adjusts the weights and biases such that the correct prediction is made using gradient descent to minimize the losses and the gradients computed thus inform how much each paramter contributes to the loss (error in prediction). 
+
+
 After training on all the examples in the dataset, the weights and biases which produce correct identification for maximum number of training examples are selected as the 'optimized parameters' and a prediction made on any new input (not part of the training dataset) is made using these final parameters. 
 
 
