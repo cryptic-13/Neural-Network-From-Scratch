@@ -1,4 +1,4 @@
-
+    
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
@@ -249,7 +249,7 @@ def predict_single_image(parameters, X_test, Y_test):
     print(f"Prediction confidence: {prediction_probs[0][predicted_digit]:.4f}")
 
 # Main execution
-if __name__ == "_main_":
+if __name__ == "__main__":
     # Load data
     train_images, train_labels, test_images, test_labels = database_import()
     
